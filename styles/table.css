@@ -9,7 +9,7 @@ table {
   height: 500px;
 }
 td,
-tr {
+tr { 
   border: 1px solid black;
   padding: 3px;
   vertical-align: top;
