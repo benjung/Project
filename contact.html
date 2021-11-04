@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/navbar.css"/>
+    <style>
+        h2 {
+          text-align: center;
+        }
+        img {
+          width: 30px;
+        }
+        form {
+          background-color: white;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          padding: 20px;
+        }
+        div {
+          padding: 10px;
+        }
+      </style>
+  </head>
+  <body>
+    <nav>
+        <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy"/>
+        </div>
+        <a href="index.html">
+            <div id="nav-home">Home</div>
+            <div class="nav-line"></div>
+          </a>
+      <a href="recipe1.html">
+        <div id="nav-recipe-1">Recipe #1</div>
+        <div class="nav-line"></div>
+      </a>
+      <a href="recipe2.html">
+        <div id="nav-recipe-2">Recipe #2</div>
+        <div class="nav-line"></div>
+      </a>
+      <a href="recipe3.html">
+        <div id="nav-recipe-3">Recipe #3</div>
+        <div class="nav-line"></div>
+      </a>
+      <a href="ingredients.html">
+        <div id="nav-ingredients">Ingredients</div>
+        <div class="nav-line"></div>
+      </a>
+      <a href="contact.html">
+        <div id="nav-conact">Contact</div>
+        <div class="nav-line"></div>
+      </a>
+      <a href="sitemap.html">
+        <div id="nav-sitemap">Sitemap</div>
+        <div class="nav-line"></div>
+      </a>
+    </nav>
+  </body>
+    <form action="https://oin-apis.herokuapp.com/form2" method="post">
+      <div>
+        <label for="firstname">First Name: </label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Enter your First Name"
+        />
+      </div>
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname "
+          placeholder="Enter your Last Name"
+        />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Click me to Submit" />
+        <input type="reset" value="Clear form" />
+      </div>
+      <div>
+        <div>
+          <label for="recipe select"
+            >Which recipe do you like the most?</label
+          >
+          <select name="best recipe" id="recipe-select">
+            <option value="#1">Kimchi Fried Rice with Pork</option>
+            <option value="#2">Kimchi JJigae with Pork</option>
+            <option value="#3">Stir-fried Zucchinni</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="comments">Leave a Reply:</label>
+        </div>
+        <div>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="25"
+            rows="5"
+            placeholder="Type Comments Here"
+          >
+        </textarea>
+        </div>
+        <button type="submit">
+            <img src="images/mailbox.png" alt="submit button" />
+          </button>
+          <button><img src="images/reset.png" alt="reset button" /></button>
+        </form>
+        <div>
+            <a href="https://www.facebook.com/ben.jung.58/">
+                <div id="social">Social Media</div>
+                <div class="nav-line"></div>
+              </a>
+              <a href="mailto:bjung1@babson.edu">
+                <div id="contact">bjung1@babson.edu</div>
+                <div class="nav-line"></div>
+              </a>
+        </div>
+    </form>
+</html>

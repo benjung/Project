@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+nav {
+  height: 50px;
+  background-color: skyblue;
+  border: 1px solid whitesmoke;
+  border-top: none;
+  border-right: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#nav-line a:hover {
+  color: yellow;
+  display: inline-block;
+}
+#favicon img {
+  height: auto;
+  width: 25px;
+  size: 100;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+#nav-contact {
+  position: relative;
+  align-items: center;
+  margin-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#nav-home {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#nav-recipe-1 {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#nav-recipe-2 {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#nav-recipe-3 {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#nav-ingredients {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#nav-sitemap {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+#social {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#contact {
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+}
