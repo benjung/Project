@@ -3,13 +3,13 @@ table {
   margin-left: auto;
   margin-right: auto;
   font-family: Arial;
-  background-color: white;
   padding-top: 20px;
   padding-bottom: 10px;
-  height: 500px;
+  /* height: 500px; */
 }
 td,
-tr { 
+tr {
+  width: 33%;
   border: 1px solid black;
   padding: 3px;
   vertical-align: top;
@@ -54,4 +54,14 @@ tr {
   align-items: baseline;
   border: 1px solid black;
   margin-left: 320px;
+}
+
+#recipe-img {
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -7,8 +7,18 @@
   font-weight: bold;
   color: black;
 }
+
+body {
+  background-color: beige;
+}
+
+ol {
+  margin-left: 10px;
+  padding: 10px;
+}
+
 nav {
-  height: 50px; 
+  height: 50px;
   background-color: skyblue;
   border: 1px solid whitesmoke;
   border-top: none;
@@ -19,13 +29,13 @@ nav {
   justify-content: center;
 }
 nav a {
-  position: relative;
-  display: flex;
-  align-items: center;
+  /* position: relative; */
+  /* align-items: center; */
+  margin: 10px;
 }
-#nav-line a:hover {
-  color: yellow;
-  display: inline-block;
+.nav-line a:hover {
+  /* color: yellow; */
+  font-size: 16px;
 }
 #favicon img {
   height: auto;
@@ -33,43 +43,6 @@ nav a {
   size: 100;
   padding-right: 10px;
   padding-top: 4px;
-}
-#nav-contact {
-  position: relative;
-  align-items: center;
-  margin-right: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#nav-home {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
-}
-#nav-recipe-1 {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
-}
-#nav-recipe-2 {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
-}
-#nav-recipe-3 {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
-}
-#nav-ingredients {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
-}
-#nav-sitemap {
-  align-items: center;
-  position: relative;
-  margin-right: 15px;
 }
 #social {
   align-items: center;

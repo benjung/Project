@@ -1,49 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ingredients</title>
-    <link rel="stylesheet" href="styles/navbar.css"/>
-    <style>       
-        div {
-          padding: 10px;
-        }
-      </style>
-  </head>
-  <body>
-    <nav>
-        <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy"/>
-        </div>
-        <a href="index.html">
-            <div id="nav-home">Home</div> 
-            <div class="nav-line"></div>
-          </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingredients</title>
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/table.css" />
+  <style>
+    div {
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      padding-top: 15px;
+      color: rgba(255, 0, 0, 0.473);
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy" />
+    </div>
+    <div class="nav-line">
+      <a href="index.html">
+        Home
+      </a>
       <a href="recipe1.html">
-        <div id="nav-recipe-1">Recipe #1</div>
-        <div class="nav-line"></div>
+        Recipe #1
       </a>
       <a href="recipe2.html">
-        <div id="nav-recipe-2">Recipe #2</div>
-        <div class="nav-line"></div>
+        Recipe #2
       </a>
       <a href="recipe3.html">
-        <div id="nav-recipe-3">Recipe #3</div>
-        <div class="nav-line"></div>
+        Recipe #3
       </a>
       <a href="ingredients.html">
-        <div id="nav-ingredients">Ingredients</div>
-        <div class="nav-line"></div>
+        Ingredients
       </a>
       <a href="contact.html">
-        <div id="nav-conact">Contact</div>
-        <div class="nav-line"></div>
+        Contact
       </a>
       <a href="sitemap.html">
-        <div id="nav-sitemap">Sitemap</div>
-        <div class="nav-line"></div>
+        Sitemap
       </a>
-    </nav>
-  </body>
+    </div>
+  </nav>
+
+
+  <h1 id="heading1">Ingredients</h1>
+  <p>
+  <table>
+    <tr>
+      <th>Kimchi Fried Rice with Pork Belly</th>
+      <th>Kimchi Soup with Pork Belly</th>
+      <th>Stir-fried Baby Octopus</th>
+    </tr>
+    <tr>
+      <td>Kimchi</td>
+      <td>Kimchi</td>
+      <td>Octopus</td>
+    </tr>
+    <tr>
+      <td>Oil</td>
+      <td>Ginger, onion, green onion, tofu</td>
+      <td>Hot pepper flakes</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>Hot pepper paste and flakes</td>
+      <td>Garlic, ginger</td>
+    </tr>
+    <tr>
+      <td>Garlic</td>
+      <td>Seame oil</td>
+      <td>Sugar</td>
+    </tr>
+    <tr>
+      <td>Pork meat
+      </td>
+      <td>Ground black pepper</td>
+      <td>soy sauce</td>
+    </tr>
+    <tr>
+      <td>Chili paste</td>
+      <td>Onion, potato, pork meat</td>
+      <td>Potato starch</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>Fish sauce and salt</td>
+      <td>Rice syrup</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Ground black pepper</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Green chili pepper</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Onion, and green onion</td>
+    </tr>
+  </table>
+
+  </p>
+
+  <script>
+
+    let heading = document.getElementById("heading1");
+
+    heading.addEventListener(
+      "mouseover",
+      function (event) {
+        event.target.style.fontSize = "30px";
+      },
+      false
+    );
+
+    heading.addEventListener(
+      "mouseout",
+      function (event) {
+        event.target.style.fontSize = "20px";
+      },
+      false
+    );
+  </script>
+</body>
+
 </html>
