@@ -24,7 +24,7 @@ heading.addEventListener(
   "mouseover",
   function (event) {
     event.target.style.fontSize = "30px";
-  },
+  }, 
   false
 );
 
