@@ -18,7 +18,7 @@ recipe2.addEventListener(
   },
   false
 );
-
+ 
 var recipe3 = document.getElementById("recipe3");
 
 recipe3.addEventListener(
