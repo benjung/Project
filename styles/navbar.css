@@ -7,6 +7,12 @@
   font-weight: bold;
   color: black;
 }
+
+ol {
+  margin-left: 10px;
+  padding: 10px;
+}
+
 nav {
   height: 50px; 
   background-color: skyblue;

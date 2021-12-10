@@ -55,3 +55,14 @@ tr {
   border: 1px solid black;
   margin-left: 320px;
 }
+
+#recipe-img {
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

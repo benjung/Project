@@ -1,49 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ingredients</title>
-    <link rel="stylesheet" href="styles/navbar.css"/>
-    <style>       
-        div {
-          padding: 10px;
-        }
-      </style>
-  </head>
-  <body>
-    <nav>
-        <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy"/>
-        </div>
-        <a href="index.html">
-            <div id="nav-home">Home</div> 
-            <div class="nav-line"></div>
-          </a>
-      <a href="recipe1.html">
-        <div id="nav-recipe-1">Recipe #1</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="recipe2.html">
-        <div id="nav-recipe-2">Recipe #2</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="recipe3.html">
-        <div id="nav-recipe-3">Recipe #3</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="ingredients.html">
-        <div id="nav-ingredients">Ingredients</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="contact.html">
-        <div id="nav-conact">Contact</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="sitemap.html">
-        <div id="nav-sitemap">Sitemap</div>
-        <div class="nav-line"></div>
-      </a>
-    </nav>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingredients</title>
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <style>
+    div {
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      padding-top: 15px;
+      color: rgba(255, 0, 0, 0.473);
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy" />
+    </div>
+    <a href="index.html">
+      <div id="nav-home">Home</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe1.html">
+      <div id="nav-recipe-1">Recipe #1</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe2.html">
+      <div id="nav-recipe-2">Recipe #2</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe3.html">
+      <div id="nav-recipe-3">Recipe #3</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="ingredients.html">
+      <div id="nav-ingredients">Ingredients</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="contact.html">
+      <div id="nav-conact">Contact</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="sitemap.html">
+      <div id="nav-sitemap">Sitemap</div>
+      <div class="nav-line"></div>
+    </a>
+  </nav>
+
+
+  <h1 id="heading1">Ingredients</h1>
+  <p>
+  <ol>
+    <li>
+      Kimchi Fried Rice with Pork Belly
+      <ol>
+        <li>
+          Kimchi
+        </li>
+        <li>
+          Oil
+        </li>
+        <li>
+          Onion
+        </li>
+        <li>
+          Garlic
+        </li>
+        <li>
+          Pork meat
+        </li>
+
+        <li>
+          Chili paste
+        </li>
+        <li>
+          Sugar
+        </li>
+      </ol>
+    </li>
+    <li>
+      Kimchi Soup with Pork Belly
+      <ol>
+        <li>
+          Kimchi
+        </li>
+        <li>
+          Ginger, onion, green onion, tofu
+        </li>
+        <li>
+          Hot pepper paste and flakes
+        </li>
+        <li>
+          Seame oil
+        </li>
+        <li>
+          Ground black pepper
+        </li>
+
+        <li>
+          Onion, potato, pork meat
+        </li>
+        <li>
+          Fish sauce and salt
+        </li>
+      </ol>
+    </li>
+    <li>
+      Stir-fried Baby Octopus
+      <ol>
+        <li>
+          Octopus
+        </li>
+        <li>
+          Hot pepper flakes, soy sauce, sugar, potato starch, rice syrup, ground black pepper 
+        </li>
+        <li>
+          garlic, ginger, green chili pepper, onion, and green onion
+        </li>
+        <li>
+          Sugar
+        </li>
+      </ol>
+    </li>
+    
+  </ol>
+  </p>
+
+  <script>
+
+    let heading = document.getElementById("heading1");
+
+    heading.addEventListener(
+      "mouseover",
+      function (event) {
+        event.target.style.fontSize = "30px";
+      },
+      false
+    );
+
+    heading.addEventListener(
+      "mouseout",
+      function (event) {
+        event.target.style.fontSize = "20px";
+      },
+      false
+    );
+  </script>
+</body>
+
 </html>

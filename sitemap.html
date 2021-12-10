@@ -1,59 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sitemap</title>
-    <link rel="stylesheet" href="styles/navbar.css"/>
-    <style>       
-        div {
-          padding: 10px;
-        }
-        h1 {
-          padding-left: 10px;  
-          padding-top: 10px;
-          padding-bottom: 5px;
-          font-size: 20px;
-        }
-      </style>
-  </head>
-  <body> 
-    <nav>
-        <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy"/>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitemap</title>
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <style>
+    div {
+      padding: 10px;
+    }
+
+    h1 {
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      font-size: 20px;
+    }
+
+    ul {
+      padding-left: 10px;
+      font-size: 16px;
+    }
+    li {
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div id="favicon"><img src="images/favicon-16x16.png" alt="Yummy" />
+    </div>
+    <a href="index.html">
+      <div id="nav-home">Home</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe1.html">
+      <div id="nav-recipe-1">Recipe #1</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe2.html">
+      <div id="nav-recipe-2">Recipe #2</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="recipe3.html">
+      <div id="nav-recipe-3">Recipe #3</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="ingredients.html">
+      <div id="nav-ingredients">Ingredients</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="contact.html">
+      <div id="nav-conact">Contact</div>
+      <div class="nav-line"></div>
+    </a>
+    <a href="sitemap.html">
+      <div id="nav-sitemap">Sitemap</div>
+      <div class="nav-line"></div>
+    </a>
+  </nav>
+  <h1>Ben's Korean Recipe Sitemap</h1>
+  <div class="sitemap">
+    <ul>
+      <li>
         <a href="index.html">
-            <div id="nav-home">Home</div>
-            <div class="nav-line"></div>
-          </a>
-      <a href="recipe1.html">
-        <div id="nav-recipe-1">Recipe #1</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="recipe2.html">
-        <div id="nav-recipe-2">Recipe #2</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="recipe3.html">
-        <div id="nav-recipe-3">Recipe #3</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="ingredients.html">
-        <div id="nav-ingredients">Ingredients</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="contact.html">
-        <div id="nav-conact">Contact</div>
-        <div class="nav-line"></div>
-      </a>
-      <a href="sitemap.html">
-        <div id="nav-sitemap">Sitemap</div>
-        <div class="nav-line"></div>
-      </a>
-    </nav>
-    <h1>Ben's Korean Recipe Sitemap</h1>
-    <hr/>
-    </body>
-    </html>
+          Home : Main page
+        </a>
+      </li>
+      <li  >
+        <a id="recipe1" href="recipe1.html">
+          Recipe #1
+        </a>
+      </li>
+      <li >
+        <a id="recipe2" href="recipe2.html">
+          Recipe #2
+        </a>
+      </li>
+      <li >
+        <a id="recipe3" href="recipe3.html">
+          Recipe #3
+        </a>
+      </li>
+      <li>
+        <a href="ingredients.html">
+          Ingredients : What kind of ingredients do we need?
+        </a>
+      </li>
+      <li>
+        <a href="sitemap.html">
+          Sitemap : Intoducing my site
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="javascript/sitemap.js"></script>
+</body>
 
-
+</html>
