@@ -25,7 +25,7 @@ heading.addEventListener(
   },
   false
 );
-
+ 
 heading.addEventListener(
   "mouseout",
   function (event) {
